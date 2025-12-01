@@ -3,6 +3,8 @@ import tseslint from 'typescript-eslint'
 import pluginVue from 'eslint-plugin-vue'
 import pluginSimpleImportSort from 'eslint-plugin-simple-import-sort'
 
+console.log(tseslint.configs.recommended)
+
 export default [
     js.configs.recommended,
     ...tseslint.configs.recommended,

@@ -1,4 +1,3 @@
 #!/usr/bin/env sh
-. "$(dirname "$0")/_/husky.sh"
 
-npx zx scripts/pre-commit.js
+pnpm lint:es && pnpm lint:style && pnpm spellcheck
